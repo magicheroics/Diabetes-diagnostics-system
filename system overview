@@ -1,0 +1,17 @@
+How the System Works  
+The system is developed using the expert system language CLIPS, employing a rule-based method that processes a knowledge base filled with facts and rules grounded in medical guidelines. 
+
+Evaluation Process  
+Input: The health worker enters patient data and symptoms. The system relies on a set of predefined factors, including:  
+- Age  
+- BMI  
+- Family history  
+- Symptoms like fatigue, frequent urination, and slow wound healing   
+
+Inference Engine: The CLIPS inference engine compares the input facts with the knowledge base rules to identify possible diagnoses and suggest next steps   
+
+Output & Rationale  
+The system delivers a suggested diabetes risk assessment along with recommendations. What sets this solution apart are its key features:  
+- Transparency: Unlike "black-box" models, the CLIPS system is clear and explainable, allowing users to see exactly which rules and facts led to a specific diagnosis (p. 2).  
+- Accessibility: Designed to function offline, this system is perfect for rural areas that lack reliable internet access (p. 2).  
+- Customizability: The rules can be easily modified and updated to reflect local specifics, such as regional dietary habits or genetic backgrounds (p. 2).
